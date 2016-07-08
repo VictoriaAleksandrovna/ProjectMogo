@@ -73,7 +73,6 @@ body
 
 .main_conteiner
 {
-    width: 100%; 
     background-size: cover;
     min-width: 1200px;
 }
@@ -180,7 +179,9 @@ a
 {
     background-image: url(../images/fond.jpg);
     background-repeat: no-repeat;
-    width: 0 auto;
+	width: 100%;
+    background-position: center;
+	margin: 0 auto;
 } 
 
 .over_brand
@@ -250,7 +251,7 @@ a
 
 .second_conteiner
 {
-    width: 100%; 
+    margin: 0 auto;
     background-size: cover;
 }
 
@@ -358,8 +359,6 @@ hr
     margin: 0 auto;
     line-height: 1.6;
 }
-
-
 
 .picture_about_story
 {
@@ -576,8 +575,8 @@ hr
 
 .third_conteiner
 {
-    width: 100%; 
     margin-bottom: 82px;
+	margin: 0 auto;
 }
 
 .third_conteiner .page_title
@@ -654,8 +653,9 @@ hr
 {
     background-image: url(../images/second_fond.jpg);
     background-repeat: no-repeat;
-    width: 100%; 
+    margin: 0 auto;
     background-size: cover;
+    background-position: center;
 }
 
 .fourth_conteiner .page_title
@@ -690,7 +690,7 @@ hr
 
 .fifth_conteiner
 {
-    width: 100%; 
+    margin: 0 auto;
     padding-top: 20px;
     height: 800px;
     margin-bottom: 100px;
@@ -725,10 +725,24 @@ hr
     width: 599px;
 }
 
-.text_thrust
+label
 {
+    background: url("../images/down.png") no-repeat;
+    background-position: right;
+    line-height: 30px;
+}
+
+.hide {
+    display: none; 
+}
+.hide + label ~ .dropdown{
+    display: none;
+}
+
+.hide + label {
+    width: 599px;
     border: solid #e5e5e5 1px;
-    margin: 12px;
+    margin: 0px;
     margin-left: 0;
     margin-top: 0;
     margin-right: 0;
@@ -736,6 +750,38 @@ hr
     padding-left: 0;
     font-size: 13px;
     font-family: Montserrat-UltraLight, sans-serif;
+    cursor: pointer;
+    display: inline-block; 
+}
+
+/* вид текста label при активном переключателе */
+.hide:checked + label {
+    color: black;
+    background: url("../images/top.png") no-repeat;
+    background-position: right;
+}
+
+.hide:checked + label + .dropdown {
+    display: block; 
+    font-size: 14px;
+    font-style: italic;
+    line-height: 1.8;
+    border: solid #e5e5e5 1px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 542px;
+    height: 150px;
+    padding: 15px;
+    padding-left: 18px;
+    padding-bottom: 5px;
+    padding-right: 49px;
+    color: #afafaf;
+    font-family: Roboto-LightItalic, sans-serif;
+
+}
+
+.demo {
+    margin-bottom: 12px;
 }
 
 .picture_in_block_service
@@ -743,49 +789,6 @@ hr
     padding-right: 14px;
     float: left;
     padding-left: 12px;
-}
-
-.top
-{
-    float: right;
-    padding-top: 10px;
-    padding-right: 9px;
-}
-
-.down
-{
-    float: right;
-    padding-top: 10px;
-    padding-right: 9px;
-}
-
-.title_of_service
-{
-    margin: 0px;
-    line-height: 2.5;
-    font-size: 14px;
-}
-
-.vertical_scrolling
-{
-    position: absolute;
-    left: 568px;
-    width: 5px;
-    height: 140px;
-    top: 22px;
-    background: #f5f5f5;
-    border-radius: 2px;
-}
-
-.line_for_vertical_scrolling
-{
-    position: absolute;
-    left: 568px;
-    width: 5px;
-    height: 90px;
-    top: 22px;
-    background: #95e1d3;
-    border-radius: 2px;
 }
 
 .dropdown
@@ -881,7 +884,7 @@ hr
 .six_conteiner
 {
     background-repeat: no-repeat;
-    width: 100%; 
+    margin: 0 auto;
     padding-top: 13px;
 }
 
@@ -1166,4 +1169,372 @@ a.link_instagram:hover
     height: 250px;
     margin: 0 auto;
     padding-top: 10px;
+}
+
+.seventh_conteiner_works
+{
+    width: 1920px;
+	height: 780px;
+	left: 50%;
+	margin-left: -960px;
+	position: absolute;
+}
+
+.seventh_conteiner .page_title
+{
+    padding-top: 78px;
+}
+
+.seventh_conteiner .big_title
+{
+    padding-bottom: 8px;
+}
+
+.first_column
+{
+    display: inline-block;
+    width: 480px;
+    float: left; 
+    height: 780px;
+}
+/*man_in_sea*/
+.first_photo_man_in_sea
+{
+    width: 480px;
+    height: 390px;
+    background: url("../images/works/man-in-sea.jpg") no-repeat;
+    position: relative;
+}
+
+
+.hover_image_man_in_sea,
+.gradient_hover_photo_works
+{
+    width: 480px;
+    height: 390px;
+    display: none;
+    position: absolute;
+}
+
+.gradient_hover_photo_works
+{
+    padding: 170px 0 0;
+    text-align: center;
+    box-sizing: border-box;
+    background: -webkit- linear-gradient(left, rgba(235,211,131,0.9), rgba(231,128,129,0.9));
+    background: -o- linear-gradient(right, rgba(235,211,131,0.9), rgba(231,128,129,0.9));
+    background: -moz- linear-gradient(right, rgba(235,211,131,0.9), rgba(231,128,129,0.9));
+    background: -ms- linear-gradient(right, rgba(235,211,131,0.9), rgba(231,128,129,0.9));
+    background: linear-gradient(to right, rgba(235,211,131,0.9), rgba(231,128,129,0.9));
+}
+
+.hover_image_man_in_sea
+{
+    background: url("../images/works/man-in-sea.jpg") no-repeat;
+}
+
+.first_photo_man_in_sea:hover .hover_image_man_in_sea,
+.first_photo_man_in_sea:hover .gradient_hover_photo_works
+{
+    display: block;
+}
+
+/*bridge*/
+.second_photo_bridge
+{
+    width: 480px;
+    height: 390px;
+    background: url("../images/works/bridge.jpg") no-repeat;
+    position: relative;
+}
+
+.hover_image_bridge,
+.gradient_hover_photo_works
+{
+    width: 480px;
+    height: 390px;
+    display: none;
+    position: absolute;
+}
+
+.gradient_hover_photo_works
+{
+    text-align: center;
+    box-sizing: border-box;
+    background: -webkit- linear-gradient(left, rgba(235,211,131,0.9), rgba(231,128,129,0.9));
+    background: -o- linear-gradient(right, rgba(235,211,131,0.9), rgba(231,128,129,0.9));
+    background: -moz- linear-gradient(right, rgba(235,211,131,0.9), rgba(231,128,129,0.9));
+    background: -ms- linear-gradient(right, rgba(235,211,131,0.9), rgba(231,128,129,0.9));
+    background: linear-gradient(to right, rgba(235,211,131,0.9), rgba(231,128,129,0.9));
+}
+
+.hover_image_bridge
+{
+    background: url("../images/works/bridge.jpg") no-repeat;
+}
+
+.second_photo_bridge:hover .hover_image_bridge,
+.second_photo_bridge:hover .gradient_hover_photo_works
+{
+    display: block;
+}
+
+.gradient_hover_photo_works .small_icon_photography
+{
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+    background: url("../images/pic-for-works.png");
+}
+
+.gradient_hover_photo_works .title_for_works
+{
+    font: 18px/22px Montserrat-Regular, sans-serif;
+    color: #fff;
+}
+
+.gradient_hover_photo_works .text_in_title_for_works
+{
+    font: 16px/20px Roboto-LightItalic, sans-serif;
+    color: #fff;
+}
+
+.second_column
+{
+    display: inline-block;
+    width: 480px;
+    float: left; 
+    height: 780px;
+}
+
+/*roof*/
+.third_photo_roof
+{
+    width: 480px;
+    height: 390px;
+    background: url("../images/works/roof.jpg") no-repeat;
+    position: relative;
+    display: inline-block;
+}
+
+
+.hover_image_roof,
+.gradient_hover_photo_works
+{
+    width: 480px;
+    height: 390px;
+    display: none;
+    position: absolute;
+}
+
+.gradient_hover_photo_works
+{
+    padding: 150px 0 0;
+    text-align: center;
+    box-sizing: border-box;
+    background: -webkit- linear-gradient(left, rgba(235,211,131,0.9), rgba(231,128,129,0.9));
+    background: -o- linear-gradient(right, rgba(235,211,131,0.9), rgba(231,128,129,0.9));
+    background: -moz- linear-gradient(right, rgba(235,211,131,0.9), rgba(231,128,129,0.9));
+    background: -ms- linear-gradient(right, rgba(235,211,131,0.9), rgba(231,128,129,0.9));
+    background: linear-gradient(to right, rgba(235,211,131,0.9), rgba(231,128,129,0.9));
+}
+
+.hover_image_roof
+{
+    background: url("../images/works/roof.jpg") no-repeat;
+}
+
+.third_photo_roof:hover .hover_image_roof,
+.third_photo_roof:hover .gradient_hover_photo_works
+{
+    display: block;
+}
+
+/*house*/
+.fourth_photo_house
+{
+    width: 480px;
+    height: 390px;
+    background: url("../images/works/house.jpg") no-repeat;
+    position: relative;
+    display: inline-block;
+	bottom: 4px;
+}
+
+.hover_image_house,
+.gradient_hover_photo_works
+{
+    width: 480px;
+    height: 390px;
+    display: none;
+    position: absolute;
+}
+
+.gradient_hover_photo_works
+{
+    text-align: center;
+    box-sizing: border-box;
+    background: -webkit- linear-gradient(left, rgba(235,211,131,0.9), rgba(231,128,129,0.9));
+    background: -o- linear-gradient(right, rgba(235,211,131,0.9), rgba(231,128,129,0.9));
+    background: -moz- linear-gradient(right, rgba(235,211,131,0.9), rgba(231,128,129,0.9));
+    background: -ms- linear-gradient(right, rgba(235,211,131,0.9), rgba(231,128,129,0.9));
+    background: linear-gradient(to right, rgba(235,211,131,0.9), rgba(231,128,129,0.9));
+}
+
+.hover_image_house
+{
+    background: url("../images/works/house.jpg") no-repeat;
+}
+
+.fourth_photo_house:hover .hover_image_house,
+.fourth_photo_house:hover .gradient_hover_photo_works
+{
+    display: block;
+}
+
+.third_column
+{
+    display: inline-block;
+    width: 480px;
+    float: left; 
+    height: 780px;
+}
+
+/*jellyfish*/
+.fifth_photo_jellyfish
+{
+    width: 480px;
+    height: 780px;
+    background: url("../images/works/jellyfish.jpg") no-repeat;
+    position: relative;
+}
+
+.fifth_photo_jellyfish .gradient_hover_photo_works
+{
+    width: 480px;
+    height: 780px;
+    display: none;
+    position: absolute;
+}
+
+.hover_image_jellyfish,
+.gradient_hover_photo_works
+{
+    width: 480px;
+    height: 780px;
+    display: none;
+    position: absolute;
+}
+
+.fifth_photo_jellyfish  .gradient_hover_photo_works
+{
+    padding: 330px 0 0;
+	text-align: center;
+    box-sizing: border-box;
+    background: -webkit- linear-gradient(left, rgba(235,211,131,0.9), rgba(231,128,129,0.9));
+    background: -o- linear-gradient(right, rgba(235,211,131,0.9), rgba(231,128,129,0.9));
+    background: -moz- linear-gradient(right, rgba(235,211,131,0.9), rgba(231,128,129,0.9));
+    background: -ms- linear-gradient(right, rgba(235,211,131,0.9), rgba(231,128,129,0.9));
+    background: linear-gradient(to right, rgba(235,211,131,0.9), rgba(231,128,129,0.9));
+}
+
+.hover_image_jellyfish
+{
+    background: url("../images/works/jellyfish.jpg") no-repeat;
+}
+
+.fifth_photo_jellyfish:hover .hover_image_jellyfish,
+.fifth_photo_jellyfish:hover .gradient_hover_photo_works
+{
+    display: block;
+}
+
+.fourth_column
+{
+    display: inline-block;
+    width: 480px;
+    float: left; 
+    height: 780px;
+}
+
+/*glassing_roof*/
+.sixth_photo_glassing_roof
+{
+    width: 480px;
+    height: 390px;
+    background: url("../images/works/glassing_roof.jpg") no-repeat;
+    position: relative;
+}
+
+
+.hover_image_glassing_roof,
+.gradient_hover_photo_works
+{
+    width: 480px;
+    height: 390px;
+    display: none;
+    position: absolute;
+}
+
+.gradient_hover_photo_works
+{
+    text-align: center;
+    box-sizing: border-box;
+    background: -webkit- linear-gradient(left, rgba(235,211,131,0.9), rgba(231,128,129,0.9));
+    background: -o- linear-gradient(right, rgba(235,211,131,0.9), rgba(231,128,129,0.9));
+    background: -moz- linear-gradient(right, rgba(235,211,131,0.9), rgba(231,128,129,0.9));
+    background: -ms- linear-gradient(right, rgba(235,211,131,0.9), rgba(231,128,129,0.9));
+    background: linear-gradient(to right, rgba(235,211,131,0.9), rgba(231,128,129,0.9));
+}
+
+.hover_image_glassing_roof
+{
+    background: url("../images/works/glassing_roof.jpg") no-repeat;
+}
+
+.sixth_photo_glassing_roof:hover .hover_image_glassing_roof,
+.sixth_photo_glassing_roof:hover .gradient_hover_photo_works
+{
+    display: block;
+}
+
+/*triangular_house*/
+.seventh_photo_triangular_house
+{
+    width: 480px;
+    height: 390px;
+    background: url("../images/works/triangular-house.jpg") no-repeat;
+    position: relative;
+}
+
+.hover_image_triangular_house,
+.gradient_hover_photo_works
+{
+    width: 480px;
+    height: 390px;
+    display: none;
+    position: absolute;
+}
+
+.gradient_hover_photo_works
+{
+    text-align: center;
+    box-sizing: border-box;
+    background: -webkit- linear-gradient(left, rgba(235,211,131,0.9), rgba(231,128,129,0.9));
+    background: -o- linear-gradient(right, rgba(235,211,131,0.9), rgba(231,128,129,0.9));
+    background: -moz- linear-gradient(right, rgba(235,211,131,0.9), rgba(231,128,129,0.9));
+    background: -ms- linear-gradient(right, rgba(235,211,131,0.9), rgba(231,128,129,0.9));
+    background: linear-gradient(to right, rgba(235,211,131,0.9), rgba(231,128,129,0.9));
+}
+
+.hover_image_triangular_house
+{
+    background: url("../images/works/triangular-house.jpg") no-repeat;
+}
+
+.seventh_photo_triangular_house:hover .hover_image_triangular_house,
+.seventh_photo_triangular_house:hover .gradient_hover_photo_works
+{
+    display: block;
 }

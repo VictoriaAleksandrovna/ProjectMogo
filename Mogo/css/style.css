@@ -179,9 +179,9 @@ a
 {
     background-image: url(../images/fond.jpg);
     background-repeat: no-repeat;
-	width: 100%;
+    width: 100%;
     background-position: center;
-	margin: 0 auto;
+    margin: 0 auto;
 } 
 
 .over_brand
@@ -576,7 +576,7 @@ hr
 .third_conteiner
 {
     margin-bottom: 82px;
-	margin: 0 auto;
+    margin: 0 auto;
 }
 
 .third_conteiner .page_title
@@ -1174,10 +1174,10 @@ a.link_instagram:hover
 .seventh_conteiner_works
 {
     width: 1920px;
-	height: 780px;
-	left: 50%;
-	margin-left: -960px;
-	position: absolute;
+    height: 780px;
+    left: 50%;
+    margin-left: -960px;
+    position: absolute;
 }
 
 .seventh_conteiner .page_title
@@ -1359,7 +1359,7 @@ a.link_instagram:hover
     background: url("../images/works/house.jpg") no-repeat;
     position: relative;
     display: inline-block;
-	bottom: 4px;
+    bottom: 4px;
 }
 
 .hover_image_house,
@@ -1430,7 +1430,7 @@ a.link_instagram:hover
 .fifth_photo_jellyfish  .gradient_hover_photo_works
 {
     padding: 330px 0 0;
-	text-align: center;
+    text-align: center;
     box-sizing: border-box;
     background: -webkit- linear-gradient(left, rgba(235,211,131,0.9), rgba(231,128,129,0.9));
     background: -o- linear-gradient(right, rgba(235,211,131,0.9), rgba(231,128,129,0.9));

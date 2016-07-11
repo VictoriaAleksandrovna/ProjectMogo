@@ -73,14 +73,14 @@ body
 
 .main_conteiner
 {
-    background-size: cover;
     min-width: 1200px;
+    width: 100%;
+    margin: 0;
 }
 
 .header
 {
     padding-bottom: 124px;
-    width: 1200px;
     margin: 0 auto;
     padding-top: 11px;
     clear: both;
@@ -170,16 +170,14 @@ a
 .branding
 {
     clear: both;
-    width: 1200px;
     margin: 0 auto;
     padding-bottom: 64px;
 }
 
 .first_conteiner
 {
-    background-image: url(../images/fond.jpg);
+    background-image: url(../images/fonds/fond.jpg);
     background-repeat: no-repeat;
-    width: 100%;
     background-position: center;
     margin: 0 auto;
 } 
@@ -244,7 +242,6 @@ a
 
 .slider
 {
-    width: 1200px;
     margin: 0 auto;
     padding-bottom: 9px;
 }
@@ -311,7 +308,6 @@ a
 
 .page_title
 {
-    width: 1200px;
     margin: 0 auto;
     padding-top: 83px;
     padding-bottom: 41px;
@@ -363,7 +359,6 @@ hr
 .picture_about_story
 {
     margin: 0 auto;
-    width: 1200px;
     margin-bottom: 106px;
 }
 
@@ -393,11 +388,7 @@ hr
     padding: 90px 0 0;
     text-align: center;
     box-sizing: border-box;
-    background: -webkit- linear-gradient(left, rgba(231, 128, 129, 0.9), rgba(235,211,131,0.9));
-    background: -o- linear-gradient(right, rgba(231,128,129,0.9), rgba(235,211,131,0.9));
-    background: -moz- linear-gradient(right, rgba(231,128,129,0.9), rgba(235,211,131,0.9));
-    background: -ms- linear-gradient(right, rgba(231,128,129,0.9), rgba(235,211,131,0.9));
-    background: linear-gradient(to right, rgba(231,128,129,0.9), rgba(235,211,131,0.9));
+    background: linear-gradient(to bottom, rgba(235,211,131,0.9), rgba(231,128,129,0.9));
 }
 
 .hover_image_headphones
@@ -448,8 +439,8 @@ hr
     height: 250px;
     display: none;
     position: absolute;
-    top: -10px;
-    left: -10px;
+    bottom: 10px;
+    right: 10px;
 }
 
 .hover_image_mac
@@ -484,8 +475,8 @@ hr
     height: 250px;
     display: none;
     position: absolute;
-    top: -10px;
-    left: -10px;
+    bottom: 10px;
+    right: 10px;
 }
 
 .hover_image_flower
@@ -520,7 +511,6 @@ hr
 
 .statistics
 {
-    width: 1200px;
     margin: 0 auto;
     color: #fff;
 }
@@ -592,7 +582,6 @@ hr
 
 .first_line_of_services
 {
-    width: 1200px;
     margin: 0 auto;
     border: solid #e5e5e5;
     border-width: 0px 0px 1px 0px;
@@ -602,7 +591,6 @@ hr
 
 .second_line_of_services
 {
-    width: 1200px;
     margin: 0 auto;
 }
 
@@ -619,7 +607,6 @@ hr
 {
     background-image: url(../images/icons.png);
     background-repeat: no-repeat;
-    width: 1200px;
     margin: 0 auto;
     padding-top: 0;
 }
@@ -651,11 +638,13 @@ hr
 
 .fourth_conteiner
 {
-    background-image: url(../images/second_fond.jpg);
+    background-image: url(../images/fonds/second_fond.jpg);
     background-repeat: no-repeat;
     margin: 0 auto;
     background-size: cover;
     background-position: center;
+    margin-top: 82px;
+    height: 848px;
 }
 
 .fourth_conteiner .page_title
@@ -691,9 +680,13 @@ hr
 .fifth_conteiner
 {
     margin: 0 auto;
-    padding-top: 20px;
     height: 800px;
     margin-bottom: 100px;
+}
+
+.fifth_conteiner .page_title
+{
+    padding-top: 81px;
 }
 
 .fifth_conteiner .text_about_content
@@ -708,7 +701,6 @@ hr
 
 .text_about_service
 {
-    width: 1200px;
     margin: 0 auto;
     margin-bottom:100px;
     clear: both;
@@ -816,8 +808,7 @@ label
 .fifth_conteiner_quote
 {
     clear: both;
-    background-repeat: no-repeat;
-    width: 100%; 
+    background-repeat: no-repeat; 
     background-size: cover;
     background: #f8f8f8;
     height: 290px;
@@ -825,7 +816,6 @@ label
 
 .quote
 {
-    width: 1200px;
     height: 300px;
     margin: 0 auto;
 }
@@ -849,7 +839,7 @@ label
     display: inline-block;
     margin: 18px;
     float: left;
-    margin-right: 53px;
+    margin-right: 50px;
     margin-left: 35px;
 }
 
@@ -890,7 +880,7 @@ label
 
 .six_conteiner .page_title
 {
-    padding-top: 60px;
+    padding-top: 59px;
 }
 
 .six_conteiner .big_title
@@ -922,26 +912,22 @@ label
 
 
 .hover_image_first_man,
-.gradient_hover_photo
+.gradient_hover_photo_six_block
 {
     width: 386px;
     height: 476px;
     display: none;
     position: absolute;
-    top: -10px;
-    left: -10px;
+    bottom: 10px;
+    right: 10px;
 }
 
-.gradient_hover_photo
+.gradient_hover_photo_six_block
 {
     padding: 208px 0 0;
     text-align: center;
     box-sizing: border-box;
-    background: -webkit- linear-gradient(left, rgba(235,211,131,0.9), rgba(231,128,129,0.9));
-    background: -o- linear-gradient(right, rgba(235,211,131,0.9), rgba(231,128,129,0.9));
-    background: -moz- linear-gradient(right, rgba(235,211,131,0.9), rgba(231,128,129,0.9));
-    background: -ms- linear-gradient(right, rgba(235,211,131,0.9), rgba(231,128,129,0.9));
-    background: linear-gradient(to right, rgba(235,211,131,0.9), rgba(231,128,129,0.9));
+    background: linear-gradient(to bottom, rgba(235,211,131,0.9), rgba(231,128,129,0.9));
 }
 
 .hover_image_first_man
@@ -950,17 +936,17 @@ label
 }
 
 .first_photo_team:hover .hover_image_first_man,
-.first_photo_team:hover .gradient_hover_photo
+.first_photo_team:hover .gradient_hover_photo_six_block
 {
     display: block;
 }
 
 .first_photo_team:hover
 {
-    background: #f9bd87;
+    background: #95e1d3;
 }
 
-.gradient_hover_photo .link
+.gradient_hover_photo_six_block .link
 {
     display: block;
     width: 220px;
@@ -989,6 +975,7 @@ a.link_facebook:hover
     border: solid 1px #f38181;
     border-bottom: none;
     border-top: none;
+    border-left: none;
 }
 
 .link_twitter
@@ -1052,7 +1039,7 @@ a.link_instagram:hover
     border-left: none;
 }
 
-.gradient_hover_photo .text
+.gradient_hover_photo_six_block .text
 {
     font: 18px/22px Verdana, sans-serif;
     color: #fff;
@@ -1069,14 +1056,14 @@ a.link_instagram:hover
 }
 
 .hover_image_second_man,
-.gradient_hover_photo
+.gradient_hover_photo_six_block
 {
     width: 386px;
     height: 476px;
     display: none;
     position: absolute;
-    top: -10px;
-    left: -10px;
+    bottom: 10px;
+    right: 10px;
 }
 
 .hover_image_second_man
@@ -1085,7 +1072,7 @@ a.link_instagram:hover
 }
 
 .second_photo_team:hover .hover_image_second_man,
-.second_photo_team:hover .gradient_hover_photo
+.second_photo_team:hover .gradient_hover_photo_six_block
 {
     display: block;
 }
@@ -1105,14 +1092,14 @@ a.link_instagram:hover
 }
 
 .hover_image_third_man,
-.gradient_hover_photo
+.gradient_hover_photo_six_block
 {
     width: 386px;
     height: 476px;
     display: none;
     position: absolute;
-    top: -10px;
-    left: -10px;
+    bottom: 10px;
+    right: 10px;
 }
 
 .hover_image_third_man
@@ -1121,7 +1108,7 @@ a.link_instagram:hover
 }
 
 .third_photo_team:hover .hover_image_third_man,
-.third_photo_team:hover .gradient_hover_photo
+.third_photo_team:hover .gradient_hover_photo_six_block
 {
     display: block;
 }
@@ -1165,7 +1152,6 @@ a.link_instagram:hover
 .logos
 {
     background: url("../images/small_logo.png") no-repeat;
-    width: 1200px;
     height: 250px;
     margin: 0 auto;
     padding-top: 10px;
@@ -1174,16 +1160,15 @@ a.link_instagram:hover
 .seventh_conteiner
 {
     height: 1188px; 
-	margin-bottom: 50px;
+    margin-bottom: 50px;
+    min-width: 1200px;
+    margin: 0 auto;
 }
 
 .seventh_conteiner_works
 {
-    width: 1920px;
     height: 780px;
-    left: 50%;
-    margin-left: -960px;
-    position: absolute;
+	width: 1920px;
 }
 
 .seventh_conteiner .page_title
@@ -1227,11 +1212,7 @@ a.link_instagram:hover
     padding: 170px 0 0;
     text-align: center;
     box-sizing: border-box;
-    background: -webkit- linear-gradient(left, rgba(235,211,131,0.9), rgba(231,128,129,0.9));
-    background: -o- linear-gradient(right, rgba(235,211,131,0.9), rgba(231,128,129,0.9));
-    background: -moz- linear-gradient(right, rgba(235,211,131,0.9), rgba(231,128,129,0.9));
-    background: -ms- linear-gradient(right, rgba(235,211,131,0.9), rgba(231,128,129,0.9));
-    background: linear-gradient(to right, rgba(235,211,131,0.9), rgba(231,128,129,0.9));
+    background: linear-gradient(to bottom, rgba(235,211,131,0.9), rgba(231,128,129,0.9));
 }
 
 .hover_image_man_in_sea
@@ -1267,11 +1248,7 @@ a.link_instagram:hover
 {
     text-align: center;
     box-sizing: border-box;
-    background: -webkit- linear-gradient(left, rgba(235,211,131,0.9), rgba(231,128,129,0.9));
-    background: -o- linear-gradient(right, rgba(235,211,131,0.9), rgba(231,128,129,0.9));
-    background: -moz- linear-gradient(right, rgba(235,211,131,0.9), rgba(231,128,129,0.9));
-    background: -ms- linear-gradient(right, rgba(235,211,131,0.9), rgba(231,128,129,0.9));
-    background: linear-gradient(to right, rgba(235,211,131,0.9), rgba(231,128,129,0.9));
+    background: linear-gradient(to bottom, rgba(235,211,131,0.9), rgba(231,128,129,0.9));
 }
 
 .hover_image_bridge
@@ -1339,11 +1316,7 @@ a.link_instagram:hover
     padding: 150px 0 0;
     text-align: center;
     box-sizing: border-box;
-    background: -webkit- linear-gradient(left, rgba(235,211,131,0.9), rgba(231,128,129,0.9));
-    background: -o- linear-gradient(right, rgba(235,211,131,0.9), rgba(231,128,129,0.9));
-    background: -moz- linear-gradient(right, rgba(235,211,131,0.9), rgba(231,128,129,0.9));
-    background: -ms- linear-gradient(right, rgba(235,211,131,0.9), rgba(231,128,129,0.9));
-    background: linear-gradient(to right, rgba(235,211,131,0.9), rgba(231,128,129,0.9));
+background: linear-gradient(to bottom, rgba(235,211,131,0.9), rgba(231,128,129,0.9));
 }
 
 .hover_image_roof
@@ -1381,11 +1354,7 @@ a.link_instagram:hover
 {
     text-align: center;
     box-sizing: border-box;
-    background: -webkit- linear-gradient(left, rgba(235,211,131,0.9), rgba(231,128,129,0.9));
-    background: -o- linear-gradient(right, rgba(235,211,131,0.9), rgba(231,128,129,0.9));
-    background: -moz- linear-gradient(right, rgba(235,211,131,0.9), rgba(231,128,129,0.9));
-    background: -ms- linear-gradient(right, rgba(235,211,131,0.9), rgba(231,128,129,0.9));
-    background: linear-gradient(to right, rgba(235,211,131,0.9), rgba(231,128,129,0.9));
+background: linear-gradient(to bottom, rgba(235,211,131,0.9), rgba(231,128,129,0.9));
 }
 
 .hover_image_house
@@ -1438,11 +1407,7 @@ a.link_instagram:hover
     padding: 330px 0 0;
     text-align: center;
     box-sizing: border-box;
-    background: -webkit- linear-gradient(left, rgba(235,211,131,0.9), rgba(231,128,129,0.9));
-    background: -o- linear-gradient(right, rgba(235,211,131,0.9), rgba(231,128,129,0.9));
-    background: -moz- linear-gradient(right, rgba(235,211,131,0.9), rgba(231,128,129,0.9));
-    background: -ms- linear-gradient(right, rgba(235,211,131,0.9), rgba(231,128,129,0.9));
-    background: linear-gradient(to right, rgba(235,211,131,0.9), rgba(231,128,129,0.9));
+    background: linear-gradient(to bottom, rgba(235,211,131,0.9), rgba(231,128,129,0.9));
 }
 
 .hover_image_jellyfish
@@ -1487,11 +1452,7 @@ a.link_instagram:hover
 {
     text-align: center;
     box-sizing: border-box;
-    background: -webkit- linear-gradient(left, rgba(235,211,131,0.9), rgba(231,128,129,0.9));
-    background: -o- linear-gradient(right, rgba(235,211,131,0.9), rgba(231,128,129,0.9));
-    background: -moz- linear-gradient(right, rgba(235,211,131,0.9), rgba(231,128,129,0.9));
-    background: -ms- linear-gradient(right, rgba(235,211,131,0.9), rgba(231,128,129,0.9));
-    background: linear-gradient(to right, rgba(235,211,131,0.9), rgba(231,128,129,0.9));
+    background: linear-gradient(to bottom, rgba(235,211,131,0.9), rgba(231,128,129,0.9));
 }
 
 .hover_image_glassing_roof
@@ -1527,11 +1488,7 @@ a.link_instagram:hover
 {
     text-align: center;
     box-sizing: border-box;
-    background: -webkit- linear-gradient(left, rgba(235,211,131,0.9), rgba(231,128,129,0.9));
-    background: -o- linear-gradient(right, rgba(235,211,131,0.9), rgba(231,128,129,0.9));
-    background: -moz- linear-gradient(right, rgba(235,211,131,0.9), rgba(231,128,129,0.9));
-    background: -ms- linear-gradient(right, rgba(235,211,131,0.9), rgba(231,128,129,0.9));
-    background: linear-gradient(to right, rgba(235,211,131,0.9), rgba(231,128,129,0.9));
+    background: linear-gradient(to bottom, rgba(235,211,131,0.9), rgba(231,128,129,0.9));
 }
 
 .hover_image_triangular_house
@@ -1544,3 +1501,119 @@ a.link_instagram:hover
 {
     display: block;
 }
+
+.seventh_conteiner_quote
+{
+	margin-top: 45px;
+}
+
+.seventh_conteiner_quote .picture_in_quote
+{
+    margin-left: 14px;
+	margin-top: 0;
+	margin-bottom: 20px;
+}
+
+.seventh_conteiner_quote .text_in_quote
+{
+    padding-top: 20px;
+}
+
+.eights_conteiner
+{
+    background: url(../images/fonds/mountein.jpg) no-repeat;
+    background-size: cover;
+    margin-top: 91px;
+	height: 833px;
+}
+
+.people_work
+{
+    margin: 0 auto;
+    margin-top: 48px;
+}
+
+.MATTHEW
+{
+    display: inline-block;
+    width: 550px;
+    height: 200px;
+    float: left;
+    padding-left: 39px;
+}
+
+.NICK
+{
+    display: inline-block;
+    width: 550px;
+    height: 200px;
+    float: right;
+    padding-left: 39px;
+	padding-right: 12px;
+}
+
+.JAELYNN
+{
+    display: inline-block;
+    width: 550px;
+    height: 200px;
+    float: left;
+    padding-left: 39px;
+	margin-top: 30px;
+}
+
+.MIKE
+{
+    display: inline-block;
+    width: 550px;
+    height: 200px;
+    float: right;
+    padding-left: 39px;
+	margin-top: 30px;
+	padding-right: 12px;
+}
+
+.eight_people_photo
+{
+    float: left;
+}
+
+.people_say
+{
+    float: right;
+    width: 400px;
+	padding-right: 10px;
+    padding-top: 8px;
+}
+
+.people_say .name 
+{
+    text-align: left;
+    padding: o;
+    margin: 0;
+}
+
+.people_say .six_block_position
+{
+    text-align: left;
+    margin-top: 11px;
+	margin-bottom: 17px;
+}
+
+.people_say hr
+{
+    text-align: left;
+    margin: 0;
+}
+
+.people_say_text
+{
+    text-align: left;
+    font-family: Roboto-Regular;
+    color: #999999;
+    line-height: 1.6;
+    font-size: 15px;
+    padding-left: 2px;
+	margin-top: 20px;
+}
+

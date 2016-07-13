@@ -63,7 +63,8 @@
 
 .conteiner
 {
-    width: 100%;
+    min-width: 1200px;
+    margin: 0 auto;
 }
 
 body
@@ -75,7 +76,6 @@ body
 {
     min-width: 1200px;
     width: 100%;
-    margin: 0;
 }
 
 .header
@@ -179,7 +179,6 @@ a
     background-image: url(../images/fonds/fond.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    margin: 0 auto;
 } 
 
 .over_brand
@@ -248,7 +247,6 @@ a
 
 .second_conteiner
 {
-    margin: 0 auto;
     background-size: cover;
 }
 
@@ -511,7 +509,6 @@ hr
 
 .statistics
 {
-    margin: 0 auto;
     color: #fff;
 }
 
@@ -895,8 +892,6 @@ label
 
 .photo_of_our_team
 {
-    margin: 0 auto;
-    width: 1200px;
     margin-bottom: 10px;
 }
 
@@ -1159,7 +1154,6 @@ a.link_instagram:hover
 
 .seventh_conteiner
 {
-    height: 1188px; 
     margin-bottom: 50px;
     min-width: 1200px;
     margin: 0 auto;
@@ -1168,7 +1162,8 @@ a.link_instagram:hover
 .seventh_conteiner_works
 {
     height: 780px;
-	width: 1920px;
+    width: 1920px;
+    margin: 0 auto;
 }
 
 .seventh_conteiner .page_title
@@ -1504,14 +1499,14 @@ background: linear-gradient(to bottom, rgba(235,211,131,0.9), rgba(231,128,129,0
 
 .seventh_conteiner_quote
 {
-	margin-top: 45px;
+    margin-top: 45px;
 }
 
 .seventh_conteiner_quote .picture_in_quote
 {
     margin-left: 14px;
-	margin-top: 0;
-	margin-bottom: 20px;
+    margin-top: 0;
+    margin-bottom: 20px;
 }
 
 .seventh_conteiner_quote .text_in_quote
@@ -1523,8 +1518,9 @@ background: linear-gradient(to bottom, rgba(235,211,131,0.9), rgba(231,128,129,0
 {
     background: url(../images/fonds/mountein.jpg) no-repeat;
     background-size: cover;
+    background-position: center;
     margin-top: 91px;
-	height: 833px;
+    height: 833px;
 }
 
 .people_work
@@ -1533,44 +1529,36 @@ background: linear-gradient(to bottom, rgba(235,211,131,0.9), rgba(231,128,129,0
     margin-top: 48px;
 }
 
-.MATTHEW
+.clients
 {
     display: inline-block;
     width: 550px;
     height: 200px;
-    float: left;
     padding-left: 39px;
+}
+
+.MATTHEW
+{
+    float: left;
 }
 
 .NICK
 {
-    display: inline-block;
-    width: 550px;
-    height: 200px;
     float: right;
-    padding-left: 39px;
-	padding-right: 12px;
+    padding-right: 12px;
 }
 
 .JAELYNN
 {
-    display: inline-block;
-    width: 550px;
-    height: 200px;
     float: left;
-    padding-left: 39px;
-	margin-top: 30px;
+    margin-top: 30px;
 }
 
 .MIKE
 {
-    display: inline-block;
-    width: 550px;
-    height: 200px;
     float: right;
-    padding-left: 39px;
-	margin-top: 30px;
-	padding-right: 12px;
+    margin-top: 30px;
+    padding-right: 12px;
 }
 
 .eight_people_photo
@@ -1582,7 +1570,7 @@ background: linear-gradient(to bottom, rgba(235,211,131,0.9), rgba(231,128,129,0
 {
     float: right;
     width: 400px;
-	padding-right: 10px;
+    padding-right: 10px;
     padding-top: 8px;
 }
 
@@ -1597,7 +1585,7 @@ background: linear-gradient(to bottom, rgba(235,211,131,0.9), rgba(231,128,129,0
 {
     text-align: left;
     margin-top: 11px;
-	margin-bottom: 17px;
+    margin-bottom: 17px;
 }
 
 .people_say hr
@@ -1614,6 +1602,50 @@ background: linear-gradient(to bottom, rgba(235,211,131,0.9), rgba(231,128,129,0
     line-height: 1.6;
     font-size: 15px;
     padding-left: 2px;
-	margin-top: 20px;
+    margin-top: 20px;
 }
 
+.ninth_conteiner .over_big_title
+{
+    margin-top: 21px;
+}
+
+.block_stories
+{
+    width: 380px;
+    display: inline-block;
+    margin: 8px;
+}
+
+.block_stories_top
+{
+    border: solid 1px #e5e5e5;
+    border-right: none;
+    border-top: none;
+    border-left: none;
+}
+
+.first_photo_in_blog
+{
+    position: relative;
+}
+
+.photo_in_blog_data_first
+{
+    position: absolute;
+    width: 60px;
+    height: 70px;
+    background-color: #95e1d3;
+    bottom: 10px;
+    right: 330px;
+    color: #fff;
+}
+
+.photo_in_blog_data_second
+{
+    position: absolute;
+    width: 60px;
+    height: 70px;
+    background-color: #95e1d3;
+    color: #fff;
+}

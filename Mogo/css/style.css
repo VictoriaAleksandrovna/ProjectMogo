@@ -1628,7 +1628,7 @@ background: linear-gradient(to bottom, rgba(235,211,131,0.9), rgba(231,128,129,0
     border-right: none;
     border-top: none;
     border-left: none;
-	margin-bottom: 15px;
+    margin-bottom: 15px;
 }
 
 .photo_in_blog
@@ -1672,56 +1672,56 @@ background: linear-gradient(to bottom, rgba(235,211,131,0.9), rgba(231,128,129,0
 .blog_day_number
 {
     font-size: 30px;
-	font-family: Montserrat-Bold;
-	margin: 0 auto;
-	text-align: center;
-	padding-top: 7px;
+    font-family: Montserrat-Bold;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 7px;
 }
 
 .blog_months
 {
     font-size: 13px;
     font-family: Roboto-LightItalic;
-	text-align: center;
+    text-align: center;
 }
 
 .blog_title_photo
 {
     font-family: Montserrat-Regular;
-	font-size: 14px;
-	color: #333333;
-	line-height: 1;
+    font-size: 14px;
+    color: #333333;
+    line-height: 1;
 }
 
 .blog_text
 {
     color: #999999;
-	font-family: Roboto-Regular;
-	font-size: 15px;
-	line-height: 1.6;
-	margin-top: 12px;
+    font-family: Roboto-Regular;
+    font-size: 15px;
+    line-height: 1.6;
+    margin-top: 12px;
 }
 
 .blog_view
 {
     background: url(../images/blog/eye.png) no-repeat;
-	background-position: left;
-	padding-left: 27px;
-	display: inline-block;
-	width: 38px;
-	color: #999999;
-	font-family: Roboto-LightItalic;
-	font-size: 15px;
+    background-position: left;
+    padding-left: 27px;
+    display: inline-block;
+    width: 38px;
+    color: #999999;
+    font-family: Roboto-LightItalic;
+    font-size: 15px;
 }
 
 .blog_speech_bubble
 {
     background: url(../images/blog/speech-bubble.png) no-repeat;
-	background-position: left;
-	padding-left: 23px;
-	width: 30px;
+    background-position: left;
+    padding-left: 23px;
+    width: 30px;
     display: inline-block;
-	color: #999999;
+    color: #999999;
     font-family: Roboto-LightItalic;
     font-size: 15px;
 }
@@ -1729,16 +1729,17 @@ background: linear-gradient(to bottom, rgba(235,211,131,0.9), rgba(231,128,129,0
 .map
 {
     background: url(../images/fonds/map.jpg) no-repeat;
-	background-size: cover;
-	background-position: center;
-	height: 200px;
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    margin-bottom: 22px;
 }
 
 .map_conteiner
 {
     width: 1200px;
-	margin: 0 auto;
-	padding-top: 55px;
+    margin: 0 auto;
+    padding-top: 55px;
 }
 
 .map_icon
@@ -1749,9 +1750,238 @@ background: linear-gradient(to bottom, rgba(235,211,131,0.9), rgba(231,128,129,0
 .map_text
 {
     text-align: center;
-	font-family: Montserrat-Bold;
-	font-size: 24px;
-	color: #f38181;
-	margin-top: 9px;
-	margin-bottom: 16px;
+    font-family: Montserrat-Bold;
+    font-size: 24px;
+    color: #f38181;
+    margin-top: 9px;
+    margin-bottom: 16px;
+}
+
+.tenth_conteiner, .main_text_left_block
+{
+    border: solid 1px #e5e5e5;
+    border-right: none;
+    border-top: none;
+    border-left: none;
+}
+
+.tenth_conteiner
+{
+    height: 475px;
+}
+
+.tenth_conteiner_left_block
+{
+    width: 480px;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.title_left_block
+{
+    color: #cccccc;
+    font-family: Montserrat-Bold;
+    font-size: 46px;
+    margin-bottom: 25px;
+}
+
+.text_left_block
+{
+    color: #999999;
+    font-family: Roboto-Regular;
+    font-size: 15px;
+    padding: 3px;
+    line-height: 1.6;
+    margin-top: 0;
+    margin-bottom: 21px;
+}
+
+.bold_subscribers
+{
+    font-family: Montserrat-Bold;
+    display: inline-block;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+.subscribers
+{
+    font-family: Montserrat-Regular;
+    display: inline-block;
+    padding-left: 3px;
+    margin-bottom: 0;
+}
+
+.following
+{
+    clear: both;
+}
+
+.following_text
+{
+    font-family: Roboto-LightItalic;
+    font-size: 15px;
+    color: #adadad;
+    line-height: 3;
+    padding-left: 3px;
+    padding-right: 5px;
+}
+
+.follow_icons
+{
+    width: 20px;
+    height: 20px;
+    margin-right: 7px;
+}
+
+.follow_facebook
+{
+    background: url(../images/follow/facebook.png) no-repeat;
+
+}
+
+.follow_twitter
+{
+    background: url(../images/follow/twitter.png) no-repeat;
+}
+
+.follow_instagram
+{
+    background: url(../images/follow/instagram.png) no-repeat;
+}
+
+.follow_pinterest
+{
+    background: url(../images/follow/pinterest.png) no-repeat;
+}
+
+.follow_google
+{
+    background: url(../images/follow/google.png) no-repeat;
+}
+
+.follow_youtube
+{
+    background: url(../images/follow/youtube.png) no-repeat;
+}
+
+.follow_dribbble
+{
+    background: url(../images/follow/dribbble.png) no-repeat;
+}
+
+.follow_tumblr
+{
+    background: url(../images/follow/tumblr.png) no-repeat;
+}
+
+.subscribe_form
+{
+    margin-top: 21px;
+}
+
+.subscribe_input
+{
+    font-family: Roboto-LightItalic;
+    height: 38px;
+    padding: 0;
+    width: 225px;
+    padding-left: 10px;
+    border: solid #e7e7e7 1px;
+    font-size: 14px;
+}
+
+.subscribe_submit
+{
+    font-family: Montserrat-Bold;
+    background: #95e1d3;
+    color: #fff;
+    font-size: 15px;
+    border: none;
+    width: 145px;
+    height: 40px;
+    padding: 0;
+    margin-left: -5px;
+}
+
+.tenth_conteiner_center_block
+{
+    width: 350px;
+    display: inline-block;
+    margin-right: 62px;
+    vertical-align: top;
+    margin-top: 40px;
+}
+
+.title_right_block, .tenth_title_center_block
+{
+    font-family: Montserrat-Regular;
+    font-size: 14px;
+    margin-bottom: 38px;
+}
+
+.blog_block
+{
+    clear: both;
+    height: 110px;
+}
+
+.photo_blog
+{
+    float: left;
+}
+
+.text_blog
+{
+    font-family: Montserrat-Regular;
+    font-size: 12px;
+    width: 200px;
+    line-height: 1.5;
+    padding: 10px;
+    float: right;
+    padding-top: 16px;
+}
+
+.data_blog
+{
+    font-family: Roboto-LightItalic;
+    padding-top: 5px;
+}
+
+.tenth_conteiner_right_block
+{
+    width: 270px;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 40px;
+}
+
+.photo_instagram
+{
+    margin: 0;
+    padding: 1px;
+    float: left;
+}
+
+.text_right_block
+{
+    color: #777777;
+    font-family: Roboto-LightItalic;
+    font-size: 15px;
+    line-height: 4;
+}
+
+.about_author
+{
+    font-family: Montserrat-Regular;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333333;
+    font-size: 14px;
+}
+
+.author
+{
+    color: #f38181;
 }

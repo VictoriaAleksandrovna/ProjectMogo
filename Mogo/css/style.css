@@ -1,64 +1,79 @@
-@font-face {
+@font-face 
+{
     font-family: "KaushanScript-Regular";
-    src: url("../fonts/KaushanScript-Regular.otf");
+    src: local("KaushanScript-Regular"), url(../fonts/KaushanScript-Regular.otf),
+         local("KaushanScript-Regular"), url(../fonts/Montserrat-Black.eot);
 }
+
 @font-face 
 {
     font-family: "Montserrat-Black";
-    src: url(../fonts/Montserrat-Black.otf);
+    src: local("Montserrat-Black"), url(../fonts/Montserrat-Black.otf),
+         local("Montserrat-Black"), url(../fonts/Montserrat-Black.eot);
+
 }
+
 @font-face 
 {
     font-family: "Montserrat-Bold";
-    src: url(../fonts/Montserrat-Bold.otf);
+    src: local("Montserrat-Bold"), url(../fonts/Montserrat-Bold.otf),
+         local("Montserrat-Bold"), url(../fonts/Montserrat-Bold.eot);
 }
 
 @font-face 
 {
     font-family: "Montserrat-ExtraBold";
-    src: url(../fonts/Montserrat-ExtraBold.otf);
+    src: local("Montserrat-ExtraBold"), url(../fonts/Montserrat-ExtraBold.otf),
+         local("Montserrat-ExtraBold"), url(../fonts/Montserrat-ExtraBold.eot);
 }
 
 @font-face 
 {
     font-family: "Montserrat-Hairline";
-    src: url(../fonts/Montserrat-Hairline.otf);
+    src: local("Montserrat-Hairline"), url(../fonts/Montserrat-Hairline.otf),
+         local("Montserrat-Hairline"), url(../fonts/Montserrat-Hairline.eot);
 }
 
 @font-face 
 {
     font-family: "Montserrat-Light";
-    src: url(../fonts/Montserrat-Light.otf);
+    src: local("Montserrat-Light"), url(../fonts/Montserrat-Light.otf),
+         local("Montserrat-Light"), url(../fonts/Montserrat-Light.eot);
 }
 
 @font-face 
 {
     font-family: "Montserrat-Regular";
-    src: url(../fonts/Montserrat-Regular.otf);
+    src: local("Montserrat-Regular"), url(../fonts/Montserrat-Regular.otf),
+         local("Montserrat-Regular"), url(../fonts/Montserrat-Regular.eot);
 }
 
 @font-face 
 {
     font-family: "Montserrat-UltraLight";
-    src: url(../fonts/Montserrat-UltraLight.otf);
+    src: local("Montserrat-UltraLight"), url(../fonts/Montserrat-UltraLight.otf),
+         local("Montserrat-UltraLight"), url(../fonts/Montserrat-UltraLight.eot);
 }
 
 @font-face 
 {
     font-family: "Roboto-Black";
-    src: url(../fonts/Roboto-Black.ttf);
+    src: local("Roboto-Black"), url(../fonts/Roboto-Black.otf),
+         local("Roboto-Black"), url(../fonts/Roboto-Black.eot);
 }
 
 @font-face 
 {
     font-family: "Roboto-Regular";
-    src: url(../fonts/Roboto-Regular.ttf);
+    src: local("Roboto-Regular"), url(../fonts/Roboto-Regular.otf),
+         local("Roboto-Regular"), url(../fonts/Roboto-Regular.eot);
 }
 
 @font-face 
 {
     font-family: "Roboto-LightItalic";
-    src: url(../fonts/Roboto-LightItalic.ttf);
+    src: local("Roboto-LightItalic"), url(../fonts/Roboto-LightItalic.otf),
+         local("Roboto-LightItalic"), url(../fonts/Roboto-LightItalic.eot);
 }
 
 .conteiner
@@ -113,22 +128,16 @@ a
     margin-right: 0;
 }
 
-.menu a.contact_for_menu
+.menu a
 {
-    margin-right: 50px;
+    color:#fff;
+    font-weight:bold;
+    text-decoration: none;
+    margin-right: 0;
 }
 
-.menu a.contact_for_menu:link
-{
-    margin-right: 50px;
-}
-
-.menu a.contact_for_menu:hover
-{
-    margin-right: 50px;
-}
-
-.menu a:link
+.menu a:link, 
+.menu a:visited
 {
     color:#fff;
     font-family: Montserrat-UltraLight, sans-serif;
@@ -153,10 +162,15 @@ a
 
 .menu a.basket_for_menu
 {
-    border: none;
+    border: 0;
     text-align: center;
     margin-right: 34px;
     padding-bottom: 0;
+}
+
+.menu img
+{
+    border: none;
 }
 
 .menu a.magnifier_for_menu
@@ -242,6 +256,7 @@ a
 .slider
 {
     margin: 0 auto;
+    width: 1200px;
     padding-bottom: 9px;
 }
 
@@ -493,7 +508,7 @@ hr
     background: #95e1d3;
 }
 
-.text_super_team
+.text_in_photos
 {
     font-family: Montserrat-Bold, sans-serif;
     font-size: 18px;
@@ -505,11 +520,14 @@ hr
 {
     background-color: #95e1d3;
     height: 270px;
+    width: 100%;
 }
 
 .statistics
 {
     color: #fff;
+    width: 1200px;
+    margin: 0 auto;
 }
 
 .text_for_statistics
@@ -769,7 +787,8 @@ label
 
 }
 
-.demo {
+.demo 
+{
     margin-bottom: 12px;
 }
 
@@ -899,12 +918,11 @@ label
 {
     width: 386px;
     height: 476px;
-    background: url("../images/man's from team/man-blue-jeans.png") no-repeat;
+    background: url("../images/mans from team/man-blue-jeans.png") no-repeat;
     position: relative;
     display: inline-block;
     margin-right: 17px;
 }
-
 
 .hover_image_first_man,
 .gradient_hover_photo_six_block
@@ -927,7 +945,7 @@ label
 
 .hover_image_first_man
 {
-    background: url("../images/man's from team/man-blue-jeans.png") no-repeat;
+    background: url("../images/mans from team/man-blue-jeans.png") no-repeat;
 }
 
 .first_photo_team:hover .hover_image_first_man,
@@ -1044,7 +1062,7 @@ a.link_instagram:hover
 {
     width: 386px;
     height: 476px;
-    background: url("../images/man's from team/blue-skirt.png") no-repeat;
+    background: url("../images/mans from team/blue-skirt.png") no-repeat;
     position: relative;
     display: inline-block;
     margin-right: 17px;
@@ -1063,7 +1081,7 @@ a.link_instagram:hover
 
 .hover_image_second_man
 {
-    background: url("../images/man's from team/blue-skirt.png") no-repeat;
+    background: url("../images/mans from team/blue-skirt.png") no-repeat;
 }
 
 .second_photo_team:hover .hover_image_second_man,
@@ -1081,7 +1099,7 @@ a.link_instagram:hover
 {
     width: 386px;
     height: 476px;
-    background: url("../images/man's from team/red-skirt.png") no-repeat;
+    background: url("../images/mans from team/red-skirt.png") no-repeat;
     position: relative;
     display: inline-block;
 }
@@ -1099,7 +1117,7 @@ a.link_instagram:hover
 
 .hover_image_third_man
 {
-    background: url("../images/man's from team/red-skirt.png") no-repeat;
+    background: url("../images/mans from team/red-skirt.png") no-repeat;
 }
 
 .third_photo_team:hover .hover_image_third_man,
@@ -1183,6 +1201,7 @@ a.link_instagram:hover
     float: left; 
     height: 780px;
 }
+
 /*man_in_sea*/
 .first_photo_man_in_sea
 {
@@ -1191,7 +1210,6 @@ a.link_instagram:hover
     background: url("../images/works/man-in-sea.jpg") no-repeat;
     position: relative;
 }
-
 
 .hover_image_man_in_sea,
 .gradient_hover_photo_works

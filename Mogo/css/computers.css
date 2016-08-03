@@ -1191,8 +1191,8 @@ a.link_instagram:hover
 
 .seventh_conteiner_works
 {
-    width: 135%; /* 1920px/1200px=160% 191% */
-    height: 100%;
+    width: 100%; /* 1920px/1200px=160% 191% */
+    height: 780px;
 }
 
 @media only screen and (max-device-width: 480px) 
@@ -1201,15 +1201,6 @@ a.link_instagram:hover
         {
         width: 100%; /* 1920px/1200px=160% 191% */
         height: 780px;
-    }
-}
-
-@media only screen and (max-width: 1200px) 
-{
-    .seventh_conteiner_works
-        {
-        width: 100%; /* 1920px/1200px=160% 191% */
-        height: 1560px;
     }
 }
 
@@ -1226,18 +1217,17 @@ a.link_instagram:hover
 .first_column
 {
     display: inline-block;
-    width: 50%; /* 480px/1920px=25% */
-    min-width: 240px;
-    max-width: 480px;
-    height: 780px;
+    width: 25%; /* 480px/1920px=25% */
+    height: 100%;
 }
 
 /*man_in_sea*/
 .first_photo_man_in_sea
 {
     width: 100%;
-    height: 390px;
+    height: 50%;
     background: url("../images/works/man-in-sea.jpg") no-repeat;
+    background-position: center;
     position: relative;
 }
 
@@ -1245,7 +1235,7 @@ a.link_instagram:hover
 .gradient_hover_photo_works
 {
     width: 100%; /* 480px/1920px=25% */
-    height: 390px;
+    height: 100%;
     display: none;
     position: absolute;
 }
@@ -1273,8 +1263,9 @@ a.link_instagram:hover
 .second_photo_bridge
 {
     width: 100%; /* 480px/1920px=25% */
-    height: 390px;
+    height: 50%;
     background: url("../images/works/bridge.jpg") no-repeat;
+    background-position: center;
     position: relative;
 }
 
@@ -1282,7 +1273,7 @@ a.link_instagram:hover
 .gradient_hover_photo_works
 {
     width: 100%; /* 480px/1920px=25% */
-    height: 390px;
+    height: 100%;
     display: none;
     position: absolute;
 }
@@ -1329,11 +1320,9 @@ a.link_instagram:hover
 .second_column
 {
     display: inline-block;
-    width: 50%; /* 480px/1920px=25% */
-    min-width: 240px;
-    max-width: 480px;
+    width: 25%; /* 480px/1920px=25% */
     float: left; 
-    height: 780px;
+    height: 100%;
 }
 
 /*roof*/
@@ -1342,6 +1331,7 @@ a.link_instagram:hover
     width: 100%; /* 480px/1920px=25% */
     height: 50%;
     background: url("../images/works/roof.jpg") no-repeat;
+    background-position: center;
     position: relative;
     display: inline-block;
 }
@@ -1351,7 +1341,7 @@ a.link_instagram:hover
 .gradient_hover_photo_works
 {
     width: 100%; /* 480px/1920px=25% */
-    height: 50%;
+    height: 100%;
     display: none;
     position: absolute;
 }
@@ -1381,6 +1371,7 @@ a.link_instagram:hover
     width: 100%; /* 480px/1920px=25% */
     height: 50%;
     background: url("../images/works/house.jpg") no-repeat;
+    background-position: center;
     position: relative;
     display: inline-block;
     bottom: 4px;
@@ -1390,7 +1381,7 @@ a.link_instagram:hover
 .gradient_hover_photo_works
 {
     width: 100%; /* 480px/1920px=25% */
-    height: 50%;
+    height: 100%;
     display: none;
     position: absolute;
 }
@@ -1416,26 +1407,25 @@ a.link_instagram:hover
 .third_column
 {
     display: inline-block;
-    width: 50%; /* 480px/1920px=25% */
-    min-width: 240px;
-    max-width: 480px;
+    width: 25%; /* 480px/1920px=25% */
     float: left; 
-    height: 780px;
+    height: 100%;
 }
 
 /*jellyfish*/
 .fifth_photo_jellyfish
 {
     width: 100%; /* 480px/1920px=25% */
-    height: 780px;
+    height: 100%;
     background: url("../images/works/jellyfish.jpg") no-repeat;
+    background-position: center;
     position: relative;
 }
 
 .fifth_photo_jellyfish .gradient_hover_photo_works
 {
     width: 100%;
-    height: 780px;
+    height: 100%;
     display: none;
     position: absolute;
 }
@@ -1444,7 +1434,7 @@ a.link_instagram:hover
 .gradient_hover_photo_works
 {
     width: 100%; 
-    height: 780px;
+    height: 50%;
     display: none;
     position: absolute;
 }
@@ -1471,11 +1461,9 @@ a.link_instagram:hover
 .fourth_column
 {
     display: inline-block;
-    width: 50%; /* 480px/1920px=25% */
-    min-width: 240px;
-    max-width: 480px;
+    width: 25%; /* 480px/1920px=25% */
     float: left; 
-    height: 780px;
+    height: 100%;
 }
 
 /*glassing_roof*/
@@ -1484,6 +1472,7 @@ a.link_instagram:hover
     width: 100%; /* 480px/1920px=25% */
     height: 50%;
     background: url("../images/works/glassing_roof.jpg") no-repeat;
+    background-position: center;
     position: relative;
 }
 
@@ -1521,6 +1510,7 @@ a.link_instagram:hover
     width: 100%; /* 480px/1920px=25% */
     height: 50%;
     background: url("../images/works/triangular-house.jpg") no-repeat;
+    background-position: center;
     position: relative;
 }
 
